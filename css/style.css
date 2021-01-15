@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 1200px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.player-img {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+}
+
+.top-players,
+.blogs,
+.courses {
+    display: grid;
+    grid-gap: 30px;
+
+
+}
+
+.top-player,
+.courses {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blogs {
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.player,
+.blog {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-bottom: 20px; */
+}
+
+.player-name {}
+
+.thumbnail img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+/* Coureses */
+
+
+.course-thumbnail img {
+    width: 200px;
+}
+
+.course-meta {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+.ratting {
+    margin-right: 20%;
+}
+
+.filled {
+    color: goldenrod;
+}
+
+.unfilled {
+    color: lightgray;
+}
