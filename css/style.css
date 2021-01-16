@@ -1,13 +1,27 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: silver;
+    font-family: 'Poppins', sans-serif;
 }
 
 main {
-    width: 1200px;
+    width: 900px;
     max-width: 80%;
     margin: 0 auto;
 }
+
+section {
+    background-color: #fff;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+}
+
+.section-title {
+    color: tomato;
+}
+
 
 .player-img {
     height: 60px;
@@ -24,7 +38,7 @@ main {
 
 }
 
-.top-player,
+.top-players,
 .courses {
     grid-template-columns: repeat(3, 1fr);
 }
@@ -45,15 +59,19 @@ main {
 .player-name {}
 
 .thumbnail img {
-    width: 200px;
-    margin-right: 20px;
+    width: 100%;
+   
+}
+
+.thumbnail {
+    margin-right: 1em;
 }
 
 /* Coureses */
 
 
 .course-thumbnail img {
-    width: 200px;
+    width: 100%;
 }
 
 .course-meta {
@@ -72,4 +90,10 @@ main {
 
 .unfilled {
     color: lightgray;
+}
+
+.duration {
+    background-color: #ff00004a;
+    border-radius: 20px;
+    padding: 10px 15px;
 }
